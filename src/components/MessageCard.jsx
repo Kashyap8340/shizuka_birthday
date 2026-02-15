@@ -13,19 +13,31 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = ` 
 
-Your personalized birthday message goes here.
+  Shizuka, my love,
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
+dekho meri pyari pyari tm jitna bhi jhagra kro mujhe jitna bhi maro kuto 
+mujhe jitna bhi tang kro but main hamesha tumhare saath rahunga tumhari har khushi mein, har gham mein, har pal mein.
 
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+Aaj tumhara Birthday hai, aur main chahta hoon ki yeh din tumhare liye utna hi khaas ho jitna tum mere liye ho.
+you are the most precious person in my life and I am so grateful to have you by my side.
+
+Aur han motki bubu tmko sachme motki bannae ke liye cooking bhi sikh lunga fir dono sath milke khoob foodu khayenge.
+Bhutki ho lekin mujhe daba ke rakhti ho koi nhi meri pasandida aurat ho thora dab ke reh leta hunjyda dikkat nhi hai mujhe😂
+lekin jo bhi kaho cute toh tm ho bahot jyda and aise he cute cute harkat sab krte raho . 
+
+jyda nhi likunga but i know tmko mere sath yeh birthday varanasi me celebrate krna par koi baat nhi me paaka apko agli baari varanasi me hee celebrate karung 
+aur hmesha sab din tmhara best jaye yeh try krte rahung and ladai toh krna hee hain mujhe tmse usme toh koi shak hee nhi hai wrna manu nhi lagegi ... 😂
+
+thik hain fir motki bubu ab kal dono logo khoob masti karenge and mujhe khoob foodu bhi khani hain toh ready rehna lutne wali ho tm kal .. ;)
+jyda mat haso samjhi wrna dant bahar aa jayega lekin koi baat nhi haste hua bahot pyari lagti ho tm .
+
+love you bubu &
 
 Happy Birthday! 🎉
 
-— [Your Name]`;
+— Teddu`;
 
   // Handle page transitions
   useEffect(() => {
