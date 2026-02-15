@@ -105,7 +105,7 @@ function App() {
               </>
             )}
           </h1>
-          <p>Your personalized message goes here 💗</p>
+          <p>Love you bebbo just wait... 💗</p>
         </section>
 
         <Countdown
